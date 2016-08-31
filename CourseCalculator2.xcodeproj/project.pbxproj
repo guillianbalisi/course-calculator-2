@@ -14,6 +14,8 @@
 		F13A469D1D7757CE006FAE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13A469C1D7757CE006FAE2D /* Assets.xcassets */; };
 		F13A46A01D7757CE006FAE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A469E1D7757CE006FAE2D /* LaunchScreen.storyboard */; };
 		F13A46AB1D7757CE006FAE2D /* CourseCalculator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46AA1D7757CE006FAE2D /* CourseCalculator2Tests.swift */; };
+		F13A46B61D7758B6006FAE2D /* Grades.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46B51D7758B6006FAE2D /* Grades.swift */; };
+		F13A46B91D7758D4006FAE2D /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46B81D7758D4006FAE2D /* Courses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F13A46A61D7757CE006FAE2D /* CourseCalculator2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseCalculator2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13A46AA1D7757CE006FAE2D /* CourseCalculator2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCalculator2Tests.swift; sourceTree = "<group>"; };
 		F13A46AC1D7757CE006FAE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13A46B51D7758B6006FAE2D /* Grades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grades.swift; sourceTree = "<group>"; };
+		F13A46B81D7758D4006FAE2D /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		F13A46921D7757CE006FAE2D /* CourseCalculator2 */ = {
 			isa = PBXGroup;
 			children = (
+				F13A46B71D7758C4006FAE2D /* Model */,
 				F13A46931D7757CE006FAE2D /* AppDelegate.swift */,
 				F13A46951D7757CE006FAE2D /* FirstViewController.swift */,
 				F13A46971D7757CE006FAE2D /* SecondViewController.swift */,
@@ -97,6 +102,15 @@
 				F13A46AC1D7757CE006FAE2D /* Info.plist */,
 			);
 			path = CourseCalculator2Tests;
+			sourceTree = "<group>";
+		};
+		F13A46B71D7758C4006FAE2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F13A46B51D7758B6006FAE2D /* Grades.swift */,
+				F13A46B81D7758D4006FAE2D /* Courses.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13A46B91D7758D4006FAE2D /* Courses.swift in Sources */,
 				F13A46981D7757CE006FAE2D /* SecondViewController.swift in Sources */,
+				F13A46B61D7758B6006FAE2D /* Grades.swift in Sources */,
 				F13A46941D7757CE006FAE2D /* AppDelegate.swift in Sources */,
 				F13A46961D7757CE006FAE2D /* FirstViewController.swift in Sources */,
 			);
