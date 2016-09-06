@@ -8,11 +8,11 @@
 
 import Foundation
 
-class Courses {
+class Courses: NSObject, NSCoding {
     
     var courseList: [String]
     
-    init() {
+    override init() {
         self.courseList = []
     }
     

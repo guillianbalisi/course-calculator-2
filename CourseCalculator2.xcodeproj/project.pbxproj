@@ -16,6 +16,8 @@
 		F13A46AB1D7757CE006FAE2D /* CourseCalculator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46AA1D7757CE006FAE2D /* CourseCalculator2Tests.swift */; };
 		F13A46B61D7758B6006FAE2D /* Grades.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46B51D7758B6006FAE2D /* Grades.swift */; };
 		F13A46B91D7758D4006FAE2D /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46B81D7758D4006FAE2D /* Courses.swift */; };
+		F1912B251D7F2261008CBF5E /* GradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1912B241D7F2261008CBF5E /* GradesTableViewCell.swift */; };
+		F1CB17FC1D78B67700B8398A /* CourseCalculatorTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB17FB1D78B67700B8398A /* CourseCalculatorTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		F13A46AC1D7757CE006FAE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F13A46B51D7758B6006FAE2D /* Grades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grades.swift; sourceTree = "<group>"; };
 		F13A46B81D7758D4006FAE2D /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		F1912B241D7F2261008CBF5E /* GradesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesTableViewCell.swift; sourceTree = "<group>"; };
+		F1CB17FB1D78B67700B8398A /* CourseCalculatorTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCalculatorTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +87,11 @@
 		F13A46921D7757CE006FAE2D /* CourseCalculator2 */ = {
 			isa = PBXGroup;
 			children = (
+				F1CB17FB1D78B67700B8398A /* CourseCalculatorTabController.swift */,
 				F13A46B71D7758C4006FAE2D /* Model */,
 				F13A46931D7757CE006FAE2D /* AppDelegate.swift */,
-				F13A46951D7757CE006FAE2D /* FirstViewController.swift */,
-				F13A46971D7757CE006FAE2D /* SecondViewController.swift */,
+				F1CB17FD1D78B83000B8398A /* View Controllers */,
+				F1912B231D7F20E6008CBF5E /* Table Cells */,
 				F13A46991D7757CE006FAE2D /* Main.storyboard */,
 				F13A469C1D7757CE006FAE2D /* Assets.xcassets */,
 				F13A469E1D7757CE006FAE2D /* LaunchScreen.storyboard */,
@@ -111,6 +116,23 @@
 				F13A46B81D7758D4006FAE2D /* Courses.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F1912B231D7F20E6008CBF5E /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F1912B241D7F2261008CBF5E /* GradesTableViewCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		F1CB17FD1D78B83000B8398A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F13A46951D7757CE006FAE2D /* FirstViewController.swift */,
+				F13A46971D7757CE006FAE2D /* SecondViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,10 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1912B251D7F2261008CBF5E /* GradesTableViewCell.swift in Sources */,
 				F13A46B91D7758D4006FAE2D /* Courses.swift in Sources */,
 				F13A46981D7757CE006FAE2D /* SecondViewController.swift in Sources */,
 				F13A46B61D7758B6006FAE2D /* Grades.swift in Sources */,
 				F13A46941D7757CE006FAE2D /* AppDelegate.swift in Sources */,
+				F1CB17FC1D78B67700B8398A /* CourseCalculatorTabController.swift in Sources */,
 				F13A46961D7757CE006FAE2D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseCalculator2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.CourseCalculator2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseCalculator2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.CourseCalculator2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +436,7 @@
 				F13A46B11D7757CE006FAE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F13A46B21D7757CE006FAE2D /* Build configuration list for PBXNativeTarget "CourseCalculator2Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +445,7 @@
 				F13A46B41D7757CE006FAE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

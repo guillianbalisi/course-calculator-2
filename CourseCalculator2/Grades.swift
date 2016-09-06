@@ -8,11 +8,12 @@
 
 import Foundation
 
-class Grades {
+class Grades: NSObject, NSCoding {
+    
     var gradeList: [Double]
     var weightList: [Double]
     
-    init() {
+    override init() {
         gradeList = []
         weightList = []
     }
