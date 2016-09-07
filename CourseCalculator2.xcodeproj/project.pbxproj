@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77CA44AFC6F0CB69511E077D /* Pods_CourseCalculator2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ABE34E5B44EB1646DC660F /* Pods_CourseCalculator2Tests.framework */; };
+		C4A940D68F8D471B631F35F0 /* Pods_CourseCalculator2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CEB60605CFE4EFF3BA166D /* Pods_CourseCalculator2.framework */; };
 		F13A46941D7757CE006FAE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46931D7757CE006FAE2D /* AppDelegate.swift */; };
 		F13A46961D7757CE006FAE2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46951D7757CE006FAE2D /* FirstViewController.swift */; };
 		F13A46981D7757CE006FAE2D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46971D7757CE006FAE2D /* SecondViewController.swift */; };
@@ -18,6 +20,7 @@
 		F13A46B91D7758D4006FAE2D /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A46B81D7758D4006FAE2D /* Courses.swift */; };
 		F1912B251D7F2261008CBF5E /* GradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1912B241D7F2261008CBF5E /* GradesTableViewCell.swift */; };
 		F1CB17FC1D78B67700B8398A /* CourseCalculatorTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB17FB1D78B67700B8398A /* CourseCalculatorTabController.swift */; };
+		F1EBF8CB1D805857007B2A83 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBF8CA1D805857007B2A83 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EAA6E1692CBCD04FE19E840 /* Pods-CourseCalculator2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseCalculator2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseCalculator2Tests/Pods-CourseCalculator2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A66EC77B4C9BDA2B668CB5B /* Pods-CourseCalculator2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseCalculator2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseCalculator2/Pods-CourseCalculator2.release.xcconfig"; sourceTree = "<group>"; };
+		38ABE34E5B44EB1646DC660F /* Pods_CourseCalculator2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseCalculator2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D22FD9FB8564B20C551554 /* Pods-CourseCalculator2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseCalculator2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseCalculator2Tests/Pods-CourseCalculator2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9AB25A7587D5C18024DF1F /* Pods-CourseCalculator2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseCalculator2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseCalculator2/Pods-CourseCalculator2.debug.xcconfig"; sourceTree = "<group>"; };
+		D8CEB60605CFE4EFF3BA166D /* Pods_CourseCalculator2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseCalculator2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13A46901D7757CE006FAE2D /* CourseCalculator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseCalculator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13A46931D7757CE006FAE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13A46951D7757CE006FAE2D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,7 @@
 		F13A46B81D7758D4006FAE2D /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 		F1912B241D7F2261008CBF5E /* GradesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesTableViewCell.swift; sourceTree = "<group>"; };
 		F1CB17FB1D78B67700B8398A /* CourseCalculatorTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCalculatorTabController.swift; sourceTree = "<group>"; };
+		F1EBF8CA1D805857007B2A83 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A940D68F8D471B631F35F0 /* Pods_CourseCalculator2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,18 +71,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77CA44AFC6F0CB69511E077D /* Pods_CourseCalculator2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5607E22A79BE725DF549B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9AB25A7587D5C18024DF1F /* Pods-CourseCalculator2.debug.xcconfig */,
+				2A66EC77B4C9BDA2B668CB5B /* Pods-CourseCalculator2.release.xcconfig */,
+				67D22FD9FB8564B20C551554 /* Pods-CourseCalculator2Tests.debug.xcconfig */,
+				0EAA6E1692CBCD04FE19E840 /* Pods-CourseCalculator2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E72CA9415E71179BDE9E0A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8CEB60605CFE4EFF3BA166D /* Pods_CourseCalculator2.framework */,
+				38ABE34E5B44EB1646DC660F /* Pods_CourseCalculator2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F13A46871D7757CE006FAE2D = {
 			isa = PBXGroup;
 			children = (
 				F13A46921D7757CE006FAE2D /* CourseCalculator2 */,
 				F13A46A91D7757CE006FAE2D /* CourseCalculator2Tests */,
 				F13A46911D7757CE006FAE2D /* Products */,
+				5D5607E22A79BE725DF549B3 /* Pods */,
+				E72CA9415E71179BDE9E0A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +165,7 @@
 			children = (
 				F13A46951D7757CE006FAE2D /* FirstViewController.swift */,
 				F13A46971D7757CE006FAE2D /* SecondViewController.swift */,
+				F1EBF8CA1D805857007B2A83 /* ThirdViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -142,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13A46AF1D7757CE006FAE2D /* Build configuration list for PBXNativeTarget "CourseCalculator2" */;
 			buildPhases = (
+				E33864875BBA421E0128AD3D /* [CP] Check Pods Manifest.lock */,
 				F13A468C1D7757CE006FAE2D /* Sources */,
 				F13A468D1D7757CE006FAE2D /* Frameworks */,
 				F13A468E1D7757CE006FAE2D /* Resources */,
+				83C1CE8AAC93309EC20AAF6D /* [CP] Embed Pods Frameworks */,
+				388EF19B7CBFF3AB82DCBCE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13A46B21D7757CE006FAE2D /* Build configuration list for PBXNativeTarget "CourseCalculator2Tests" */;
 			buildPhases = (
+				D136706F6ACA755CDD842DCB /* [CP] Check Pods Manifest.lock */,
 				F13A46A21D7757CE006FAE2D /* Sources */,
 				F13A46A31D7757CE006FAE2D /* Frameworks */,
 				F13A46A41D7757CE006FAE2D /* Resources */,
+				61DC717CB4126D9EF790A5BA /* [CP] Embed Pods Frameworks */,
+				4F0CC7E1D8DBD648221988BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +274,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		388EF19B7CBFF3AB82DCBCE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseCalculator2/Pods-CourseCalculator2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0CC7E1D8DBD648221988BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseCalculator2Tests/Pods-CourseCalculator2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DC717CB4126D9EF790A5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseCalculator2Tests/Pods-CourseCalculator2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C1CE8AAC93309EC20AAF6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseCalculator2/Pods-CourseCalculator2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D136706F6ACA755CDD842DCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E33864875BBA421E0128AD3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F13A468C1D7757CE006FAE2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -244,6 +378,7 @@
 				F13A46B61D7758B6006FAE2D /* Grades.swift in Sources */,
 				F13A46941D7757CE006FAE2D /* AppDelegate.swift in Sources */,
 				F1CB17FC1D78B67700B8398A /* CourseCalculatorTabController.swift in Sources */,
+				F1EBF8CB1D805857007B2A83 /* ThirdViewController.swift in Sources */,
 				F13A46961D7757CE006FAE2D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +506,7 @@
 		};
 		F13A46B01D7757CE006FAE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9AB25A7587D5C18024DF1F /* Pods-CourseCalculator2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseCalculator2/Info.plist;
@@ -383,6 +519,7 @@
 		};
 		F13A46B11D7757CE006FAE2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A66EC77B4C9BDA2B668CB5B /* Pods-CourseCalculator2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseCalculator2/Info.plist;
@@ -395,6 +532,7 @@
 		};
 		F13A46B31D7757CE006FAE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D22FD9FB8564B20C551554 /* Pods-CourseCalculator2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CourseCalculator2Tests/Info.plist;
@@ -407,6 +545,7 @@
 		};
 		F13A46B41D7757CE006FAE2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAA6E1692CBCD04FE19E840 /* Pods-CourseCalculator2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CourseCalculator2Tests/Info.plist;
